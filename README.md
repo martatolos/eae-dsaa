@@ -56,7 +56,7 @@ uv sync --extra lab-n    # Where n is the lab number.
 ## Contents
 
 - [Regression](./regression.ipynb)
-- [Decision Trees](./decision_trees.ipynb)
+- [Decision Trees](./decision_tree.ipynb)
 - [Unsupervised Algorithms](./unsupervised.ipynb)
 - [NLP: Text classification with SVMs](nlp_svm.ipynb)
 - [NLP: Prompt Engineering Introduction](nlp_prompting.ipynb)
