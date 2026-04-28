@@ -26,7 +26,7 @@ The following is required to run the notebooks in your local environment:
 First clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/martatolos/eae-dsaa-2025.git
+git clone https://github.com/martatolos/eae-dsaa.git
 ```
 
 #### Install dependencies

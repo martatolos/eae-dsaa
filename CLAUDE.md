@@ -43,7 +43,7 @@ Ruff config is in `ruff.toml` (line length 120, extensive lint rule set, target 
 
 ## Key Conventions
 
-- Each notebook starts with a Colab badge linking to `martatolos/eae-dsaa-2025` on the `main` branch. When renaming or adding notebooks, update the Colab link accordingly.
+- Each notebook starts with a Colab badge linking to `martatolos/eae-dsaa` on the `main` branch. When renaming or adding notebooks, update the Colab link accordingly.
 - Each notebook includes an inline `%pip install` cell so students can run in Colab without local setup. Keep these in sync with `pyproject.toml` optional-dependencies.
 - Labs 4-6 require an OpenAI API key via `.env` file or inline variable. `.env` is gitignored.
 - `reviews.tsv` is a dataset used by the NLP notebooks.

@@ -1,5 +1,5 @@
 [project]
-name = "eae-dsaa-2025"
+name = "eae-dsaa"
 version = "0.1.0"
 description = "This repository contains several labs for the Data Science Course at EAE Business School. The labs are designed to help students understand and apply various data science techniques and tools."
 readme = "README.md"
