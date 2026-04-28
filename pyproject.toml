@@ -24,7 +24,6 @@ lab-2 = [
   "plotly==5.24.1",
   "pydotplus==2.0.2",
   "scikit-learn==1.8.0",
-  "seaborn==0.13.2",
 ]
 lab-3 = [
   "numpy==2.4.4",
