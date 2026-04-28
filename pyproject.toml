@@ -3,40 +3,42 @@ name = "eae-dsaa-2025"
 version = "0.1.0"
 description = "This repository contains several labs for the Data Science Course at EAE Business School. The labs are designed to help students understand and apply various data science techniques and tools."
 readme = "README.md"
-requires-python = ">=3.10, <3.13"
+requires-python = ">=3.11, <3.13"
 dependencies = ["ipykernel>=6.29.5", "pip>=25.0.1"]
 
 [project.optional-dependencies]
 lab-1 = [
-  "numpy==2.0.2",
-  "pandas==2.2.2",
-  "scikit-learn==1.6.1",
+  "matplotlib",
+  "numpy==2.4.4",
+  "pandas==3.0.2",
+  "plotly==5.24.1",
+  "scikit-learn==1.8.0",
   "seaborn==0.13.2",
 ]
 lab-2 = [
   "dtreeviz==2.2.2",
   "ipython",
   "nbformat",
-  "numpy==2.0.2",
+  "numpy==2.4.4",
   "pathlib",
   "plotly==5.24.1",
   "pydotplus==2.0.2",
-  "scikit-learn==1.6.1",
+  "scikit-learn==1.8.0",
   "seaborn==0.13.2",
 ]
 lab-3 = [
-  "numpy==2.0.2",
+  "numpy==2.4.4",
   "nbformat",
-  "pandas==2.2.2",
+  "pandas==3.0.2",
   "plotly==5.24.1",
-  "scikit-learn==1.6.1",
+  "scikit-learn==1.8.0",
 ]
 lab-4 = ["ipython", "openai==1.75.0", "python-dotenv"]
 lab-5 = ["ipython", "openai==1.75.0", "python-dotenv", "spacy==3.8.5"]
 lab-6 = [
   "chromadb==1.0.5",
   "ipython",
-  "numpy==2.0.2",
+  "numpy==2.4.4",
   "langchain==0.3.23",
   "langchain-community==0.3.21",
   "langchain-openai==0.3.14",
