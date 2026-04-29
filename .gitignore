@@ -164,3 +164,8 @@ cython_debug/
 
 # RAG pdf
 *.pdf
+
+# Specs, plans, and teacher guides
+docs/superpowers/
+docs/plans/
+docs/teacher-guide/
