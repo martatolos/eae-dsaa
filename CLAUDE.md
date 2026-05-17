@@ -17,9 +17,10 @@ uv sync --extra lab-3   # unsupervised (plotly, sklearn)
 uv sync --extra lab-4   # prompt engineering (openai, python-dotenv)
 uv sync --extra lab-5   # NLP tasks with GPT (openai, spacy)
 uv sync --extra lab-6   # RAG (langchain, chromadb, openai, tiktoken, pypdf)
+uv sync --extra lab-7   # MLOps lifecycle (mlflow, polars, evidently, flask, pyngrok, matplotlib)
 ```
 
-Python version: `>=3.10, <3.13` (ruff targets 3.12).
+Python version: `>=3.11, <3.13` (ruff targets 3.12).
 
 ## Notebook-to-Lab Mapping
 
@@ -31,6 +32,7 @@ Python version: `>=3.10, <3.13` (ruff targets 3.12).
 | 4 | `nlp_prompting.ipynb`, `open_ai_test.ipynb` | Prompt engineering with OpenAI |
 | 5 | `nlp_tasks_with_gpt.ipynb`, `nlp_svm.ipynb` | NLP tasks, text classification with SVMs |
 | 6 | `nlp_rag.ipynb` | Retrieval-Augmented Generation (LangChain + ChromaDB) |
+| 7 | `mlops.ipynb` | MLOps: full lifecycle (MLflow, Polars, Evidently, Flask serving) |
 
 ## Linting
 

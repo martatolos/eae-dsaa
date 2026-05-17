@@ -169,3 +169,13 @@ cython_debug/
 docs/superpowers/
 docs/plans/
 docs/teacher-guide/
+
+# MLOps lab runtime artifacts
+mlruns/
+mlflow.db
+data/raw_data.csv
+data/processed_data.csv
+data/x_train.csv
+data/y_train.csv
+data/x_test.csv
+data/y_test.csv
