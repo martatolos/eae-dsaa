@@ -48,3 +48,15 @@ lab-6 = [
   "requests",
   "tiktoken==0.9.0",
 ]
+lab-7 = [
+  "evidently==0.7.5",
+  "flask==3.1.0",
+  "matplotlib",
+  "mlflow==2.22.0",
+  "numpy==2.4.4",
+  "pandas==3.0.2",
+  "polars==1.30.0",
+  "pyngrok==7.2.2",
+  "requests==2.32.3",
+  "scikit-learn==1.8.0",
+]

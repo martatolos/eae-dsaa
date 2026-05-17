@@ -642,11 +642,10 @@ lab-2 = [
     { name = "ipython" },
     { name = "nbformat" },
     { name = "numpy" },
-    { name = "pathlib" },
+    { name = "pandas" },
     { name = "plotly" },
     { name = "pydotplus" },
     { name = "scikit-learn" },
-    { name = "seaborn" },
 ]
 lab-3 = [
     { name = "nbformat" },
@@ -704,8 +703,8 @@ requires-dist = [
     { name = "openai", marker = "extra == 'lab-5'", specifier = "==1.75.0" },
     { name = "openai", marker = "extra == 'lab-6'", specifier = "==1.75.0" },
     { name = "pandas", marker = "extra == 'lab-1'", specifier = "==3.0.2" },
+    { name = "pandas", marker = "extra == 'lab-2'", specifier = "==3.0.2" },
     { name = "pandas", marker = "extra == 'lab-3'", specifier = "==3.0.2" },
-    { name = "pathlib", marker = "extra == 'lab-2'" },
     { name = "pathlib", marker = "extra == 'lab-6'" },
     { name = "pip", specifier = ">=25.0.1" },
     { name = "plotly", marker = "extra == 'lab-1'", specifier = "==5.24.1" },
@@ -721,7 +720,6 @@ requires-dist = [
     { name = "scikit-learn", marker = "extra == 'lab-2'", specifier = "==1.8.0" },
     { name = "scikit-learn", marker = "extra == 'lab-3'", specifier = "==1.8.0" },
     { name = "seaborn", marker = "extra == 'lab-1'", specifier = "==0.13.2" },
-    { name = "seaborn", marker = "extra == 'lab-2'", specifier = "==0.13.2" },
     { name = "spacy", marker = "extra == 'lab-5'", specifier = "==3.8.5" },
     { name = "tiktoken", marker = "extra == 'lab-6'", specifier = "==0.9.0" },
 ]

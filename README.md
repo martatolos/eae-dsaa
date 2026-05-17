@@ -62,3 +62,4 @@ uv sync --extra lab-n    # Where n is the lab number.
 - [NLP: Prompt Engineering Introduction](nlp_prompting.ipynb)
 - [NLP: Tasks with GPT](./nlp_tasks_with_gpt.ipynb)
 - [NLP: Retrieval Augmented Generation (RAG)](nlp_rag.ipynb)
+- [MLOps: Full Lifecycle with MLflow](./mlops.ipynb)
