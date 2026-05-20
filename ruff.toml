@@ -121,6 +121,21 @@ ignore = [
   "T201",
 ]
 
+[lint.per-file-ignores]
+"*.ipynb" = [
+  "S603",
+  "S607",
+  "S104",
+  "S108",
+  "S110",
+  "ANN201",
+  "SIM115",
+  "B007",
+  "E402",
+  "E501",
+  "RUF005",
+]
+
 [lint.pylint]
 max-args = 10
 
