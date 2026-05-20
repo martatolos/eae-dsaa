@@ -134,6 +134,7 @@ ignore = [
   "E402",
   "E501",
   "RUF005",
+  "ICN001",
 ]
 
 [lint.pylint]
